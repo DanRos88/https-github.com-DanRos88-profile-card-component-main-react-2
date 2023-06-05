@@ -1,0 +1,137 @@
+:root{
+  /* COLORS */
+
+  --clr-primary-bg: hsl(185, 75%, 39%);
+  --clr-primary-700: hsl(229, 23%, 23%);
+  --clr-primary-400: hsl(227, 10%, 46%);
+
+  /* TYPOGRAPHY */
+
+  --ff-400: 'Kumbh Sans', sans-serif;
+
+  --fs-300: .9rem;
+  --fs-400: 1rem;
+  --fs-700: 1.125rem;
+
+  --fw-400: 400;
+  --fw-700: 700;
+}
+
+body{
+  font-family: var(--ff-400);
+  font-size: var(--fs-400);
+  color: var(--fs-400);
+}
+
+.App {
+  min-height: 100dvh;
+  display: grid;
+  background-color: var(--clr-primary-bg);
+  /* background-image: url(bg-pattern-top.svg),
+                    url(bg-pattern-bottom.svg); */
+  background-position: top left, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50%, 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card{
+  background-color: white;
+  /* padding-bottom: 2em; */
+  overflow: hidden;
+  border-radius: 1em;
+  width: 350px;
+  margin-inline: 1em;
+}
+
+@media (max-width: 500px){
+  .Card{
+    width:343px
+  }
+}
+
+.card_header{
+  background: url(../imgs/bg-pattern-card.svg);
+  height: 9em;
+  /* min-width: 350px; */
+  position: relative;
+}
+
+.card_header picture{
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 46%);
+}
+
+.card_header picture img{
+  border: 5px solid white;
+  border-radius: 100%;
+}
+
+.card_main{
+  text-align: center;
+  padding-block: 4.1em .35em;
+}
+
+.card_main h1{
+  color: var(--clr-primary-700);
+  font-weight: var(--fw-700);
+  margin-bottom: .3em;
+}
+
+.card_main h1,
+.card_main h2{
+  font-size: var(--fs-700);
+}
+
+.card_main h2,
+.card_main h3{
+  color: var(--clr-primary-400);
+  font-weight: var(--fw-400);
+}
+
+.card_main h3{
+  font-size: var(--fs-300);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: .5em;
+}
+
+hr{
+  margin-top: 1em;
+  height: 1px;
+  color: var(--clr-primary-400);
+  opacity: .25;
+}
+
+.card_data{
+  /* border-top: 1px solid hsl(227, 10%, 46%); */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: .35em 1.5em .5em 1.5em;
+}
+
+.card_data div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  color: var(--clr-primary-700);
+}
+
+.card_data div h2{
+  font-size: var(--fs-700);
+  font-weight: var(--fw-700);
+}
+
+.card_data div h3{
+  font-size: .6em;
+  font-weight: 300;
+  letter-spacing: .2em;
+}
