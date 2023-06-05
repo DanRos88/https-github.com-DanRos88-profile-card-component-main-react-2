@@ -27,13 +27,26 @@ body{
   min-height: 100dvh;
   display: grid;
   background-color: var(--clr-primary-bg);
-  /* background-image: url(bg-pattern-top.svg),
-                    url(bg-pattern-bottom.svg); */
-  background-position: top left, right bottom;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 50%, 50%;
+  background-image: url(../imgs/bg-pattern-top.svg),
+                     url(../imgs/bg-pattern-bottom.svg); 
+  background-position: 
+    top -500px left -250px,
+    bottom -500px right -250px;
+  background-repeat: no-repeat;
+  background-size: 1000px;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 500px){
+  .App{
+    background-image: url(../imgs/bg-pattern-top.svg),
+                      url(../imgs/bg-pattern-bottom.svg); 
+    background-position: 
+      top -500px left -750px,
+      bottom -500px right -750px;
+    background-size: 1000px;
+  }
 }
 
 .Card{

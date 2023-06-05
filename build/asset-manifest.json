@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/profile-card-component-main-react/static/css/main.56a32f00.css",
-    "main.js": "/profile-card-component-main-react/static/js/main.ec25c016.js",
-    "static/js/787.02254b93.chunk.js": "/profile-card-component-main-react/static/js/787.02254b93.chunk.js",
-    "static/media/bg-pattern-card.svg": "/profile-card-component-main-react/static/media/bg-pattern-card.b61daebd3cb4b885d10f.svg",
-    "index.html": "/profile-card-component-main-react/index.html",
-    "main.56a32f00.css.map": "/profile-card-component-main-react/static/css/main.56a32f00.css.map",
-    "main.ec25c016.js.map": "/profile-card-component-main-react/static/js/main.ec25c016.js.map",
-    "787.02254b93.chunk.js.map": "/profile-card-component-main-react/static/js/787.02254b93.chunk.js.map"
+    "main.css": "/profile-card-component-main-react-2/static/css/main.cbaa2343.css",
+    "main.js": "/profile-card-component-main-react-2/static/js/main.2a7156ac.js",
+    "static/js/787.02254b93.chunk.js": "/profile-card-component-main-react-2/static/js/787.02254b93.chunk.js",
+    "static/media/bg-pattern-card.svg": "/profile-card-component-main-react-2/static/media/bg-pattern-card.b61daebd3cb4b885d10f.svg",
+    "index.html": "/profile-card-component-main-react-2/index.html",
+    "main.cbaa2343.css.map": "/profile-card-component-main-react-2/static/css/main.cbaa2343.css.map",
+    "main.2a7156ac.js.map": "/profile-card-component-main-react-2/static/js/main.2a7156ac.js.map",
+    "787.02254b93.chunk.js.map": "/profile-card-component-main-react-2/static/js/787.02254b93.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56a32f00.css",
-    "static/js/main.ec25c016.js"
+    "static/css/main.cbaa2343.css",
+    "static/js/main.2a7156ac.js"
   ]
 }
